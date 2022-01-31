@@ -1,12 +1,3 @@
-import { count } from "console"
-import { fsyncSync } from "fs"
-import { Children, ReactElement } from "react"
-import { createElementAccessChain, forEachChild, WatchDirectoryFlags } from "typescript"
-import { projects } from "../shared/projects"
-import Project from "../types/Project"
-import ProjectProgress from "./ProjectProgress"
-import ProjectRating from "./ProjectRating"
-import ProjectTimes from "./ProjectTimes"
 
 interface Props {
   project: Project
